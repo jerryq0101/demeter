@@ -6,6 +6,7 @@ import {Graphic} from './components/firstPage/RGraphic.js'
 import {DownArrow} from './components/firstPage/DownArrow.js'
 import {Pagetwotitle} from './components/secondPage/Title.js'
 import TheProcess from './components/secondPage/TheProcess.js'
+import {Footer} from './components/footer/Footer'
 
 function App() {
   return (
@@ -32,6 +33,12 @@ function App() {
       </div>
       <div>
         <DownArrow />
+      </div>
+
+      {/* The Current Footer that is here */}
+
+      <div>
+        <Footer />
       </div>
       
     </div>
