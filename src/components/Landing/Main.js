@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+
 export const Main = ({}) => {
   return (
     <TextAreaOnTheLeftRoot>
@@ -81,11 +82,15 @@ const InvestInProjects = styled.div`
   margin-bottom: 3px;
   width: ${(props) => props.width};
 `;
-const TextAreaOnTheLeftRoot = styled.div`
+
+// The big css
+
+const TextAreaOnTheLeftRoot = styled.div` 
   display: flex;
   flex-direction: column;
   gap: 45px;
   margin: 0;
+  // background-color: aliceblue;
   min-width: 650px;
   align-items: flex-start;
   padding: 10% 0 5% 5%;

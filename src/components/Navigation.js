@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import { Link, withRouter} from 'react-router-dom'
+
 export const Navigation = ({}) => {
   return (
     <Frame2Root>
@@ -14,8 +16,8 @@ export const Navigation = ({}) => {
       </DemeterDAOMotto>
       <WebsitePageSelect>
         <Group width={"54px"}>
-          <Vote left={"0px"}>Vote</Vote>
-          <Vote left={"-124px"}>Home</Vote>
+          <Link to="/vote"><Vote left={"0px"}>Vote</Vote></Link>
+          <Link to="/"><Vote left={"-124px"}>Home</Vote></Link>
           <Ellipse8
             src={
               "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/d9403416-7cdd-4047-aa97-5f4043c275b2.svg?alt=media&token=22b7f968-ed2c-4114-88c5-d3290ed90d68"
@@ -92,7 +94,6 @@ const SignIn = styled.div`
   font-size: 24px;
   font-family: Inter;
   font-weight: 600;
-  background-color:blue;
   padding: 14px 50px 14px 50px;
   margin-right: 2em;
 `;
