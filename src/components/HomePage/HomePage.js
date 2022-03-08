@@ -3,8 +3,8 @@ import Home from './Home.js';
 import Process from './Process.js'
 
 export default function HomePage() {
-    return(
-        <div>
+    return (
+        <div className="HomePage">
             <Home />
             <Process />
         </div>

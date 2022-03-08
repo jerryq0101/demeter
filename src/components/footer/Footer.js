@@ -12,7 +12,7 @@ export const Footer = ({}) => {
       </FlexRow>
       <Aboutus>
         <Text1>About us</Text1>
-        <Text2 marginBottom={"22px"}>Mission</Text2>
+        <a text-decoration="none" target="_blank" href="https://demeterdao.notion.site/Demeter-s-Purpose-bdc371dcbd7748b5aadc6ba5edc39165"><Text2 marginBottom={"22px"}>Mission</Text2></a>
         <Text2 marginBottom={"22px"}>Contact us</Text2>
         <Text2 marginBottom={"0px"}>Partners</Text2>
       </Aboutus>

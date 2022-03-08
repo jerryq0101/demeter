@@ -26,7 +26,7 @@ export const Navigation = ({}) => {
         </Group>
         <Group width={"102px"}>
           <Vote left={"0px"}>Treasury</Vote>
-          <Vote left={"157px"}>Docs</Vote>
+          <a target="_blank" href="https://demeterdao.notion.site/How-Demeter-Works-e3e041a17d354c6f8e57351363ccb419"><Vote left={"157px"}>Docs</Vote></a>
         </Group>
       </WebsitePageSelect>
       <SignIn>Sign in</SignIn>
