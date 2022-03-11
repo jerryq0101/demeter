@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+
 export const Footer = ({}) => {
   return (
     <FooterRoot>
@@ -22,6 +23,7 @@ export const Footer = ({}) => {
     </FooterRoot>
   );
 };
+
 const Text1 = styled.div`
   color: #ffffff;
   width: 266px;
