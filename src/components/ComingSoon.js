@@ -3,11 +3,9 @@ import './ComingSoon.css'
 
 function ComingSoon(){
     return(
-        <div>
+        <div className="coming-soon">
             <div className="Title">
-                
                     <div className='teal'>[</div>Coming soon<div className='teal'>]</div>
-                
             </div>
             <div className="description">
                 Team is working hard to bring DemeterDAO to fruition,

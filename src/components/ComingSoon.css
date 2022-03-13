@@ -1,9 +1,12 @@
+.coming-soon {
+    margin: 8em 0 10em 0;
+}
+
 .Title {
     font-size: 30px;
     font-family: Inter;
     font-weight: 600;
-    margin: 10em auto 1.5em auto;
-    
+    margin: 0 auto 1.5em auto;
     padding: 10px;
     text-align: center;
 }
@@ -13,10 +16,10 @@
 }
 
 .description {
-    font-size: 15px;
+    font-size: 18px;
     font-family: Inter;
     font-weight: 300;
     text-align: center;
     margin-left: auto; margin-right: auto;
-
 }
+
