@@ -1,0 +1,139 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+.flexbox-container-1 {
+    display: flex;
+    flex-direction: column;
+    /* Soem Spacing for later */
+}
+
+.flexbox-item {
+    font-family: "Inter";
+    margin: 6px 0 4px 0;
+    /* background-color: #c4c4c4; */
+}
+
+.flexbox-item-1 {
+    font-size: 18px;
+    font-weight: 600;
+    height: 30px;
+    max-width: 550px;
+}
+.flexbox-item-2 {
+    font-size: 75px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.2em;
+    min-height: 200px;
+    max-width: 550px;
+    margin-bottom: 0;
+}
+.flexbox-item-3 {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 550px;
+}
+
+.green {
+    color: #219F94;
+}
+
+
+/* Flexbox 2 */
+
+.flexbox-container-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin-bottom: 0.5em;
+}
+
+.flexbox2-item {
+    width: 250px;
+    margin: 6px;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    background-color: #219F94;
+}
+
+.flexbox2-item-1 {
+    min-height: 66px;
+    border-radius: 8px;
+    /* Aligning text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox2-item-2{
+    min-height: 66px;
+    margin: 6px;
+    color: #219F94;
+    background: none;
+
+    /* aligning text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexbox2-item-2-text {
+    border-bottom: 3px solid #219F94;
+    width: fit-content;
+}
+
+
+
+/* Flexbox 3 */
+
+.flexbox-container-3 {
+    display: flex;
+}
+
+.flexbox3-item{
+    width: 295px;
+    margin: 6px;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.flexbox3-item-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+    .flexbox3-item-1-text {
+        margin-left: 10px;
+    }
+
+.flexbox3-item-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+    .flexbox3-item-2-text {
+        margin-left: 10px;
+    }
+
+
+
+.flexbox-combo-23 {
+    display: flex;
+    flex-direction: column;
+}
+
+.combo123 {
+    display: flex;
+    flex-direction: column;
+}
+    .combo123-item-1{
+        margin: 20px 0px 5em 6em;
+    }
+    
+    .combo123-item-2{
+        margin: 0px 0px 5em 6em;
+    }
