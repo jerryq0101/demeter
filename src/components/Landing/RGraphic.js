@@ -5,113 +5,94 @@ export const Graphic = ({}) => {
     <UIOnTheRightRoot>
       <UIDecoration
         src={
-          "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/10f1e5af-8c35-4a4f-a7da-1d7d17f7e1e9.svg?alt=media&token=185ace62-af79-4288-8ec3-0e6ca0ea3e09"
+          "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/ecf769c7-b44c-49c2-8d5a-3838007ac33b.svg?alt=media&token=a020f8c7-3d68-49ff-a226-653ea442c04b"
         }
       />
-      <Rectangle8>
-        <Group>
-          <Image1647
+      <WhiteFlexRow>
+        <FreeGeekLogo
+          src={
+            "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/197a907b-4f87-4227-a10c-8ed17e7d7d5f.png?alt=media&token=6953fec7-fe5f-4fdd-b6ac-ce7ce4031704"
+          }
+        />
+        <FlexColumn>
+          <Text1>FreeGeek Vancouver</Text1>
+          <FlexRow>
+            <Text2>151,070 Votes</Text2>
+            <SilverRectangle />
+          </FlexRow>
+        </FlexColumn>
+      </WhiteFlexRow>
+      <Element1>
+        <WhiteFlexRow1>
+          <Image1
             src={
-              "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/94236b2b-9fd6-41fe-8f7d-88e7e767dc17.png?alt=media&token=9e99b901-2d11-45b9-add1-e5b2ecb4ea28"
+              "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/246c1bd3-308f-4cdc-8133-538f7984376b.png?alt=media&token=f8d41ba4-1ce5-44de-bebb-e2ff19cf25f5"
             }
           />
-          <Image1663
-            src={
-              "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/0ac56ead-bccf-4e2d-9f5b-6a6e978876c8.png?alt=media&token=18a4c2e9-3821-43e4-962f-e53e3ebe3466"
-            }
-          />
-        </Group>
-        <Group1>
-          <ChopValueVancouver>ChopValue Vancouver</ChopValueVancouver>
-          <Group2>
-            <_151070Votes>151,070 Votes</_151070Votes>
-            <Rectangle9 />
-          </Group2>
-        </Group1>
-      </Rectangle8>
-      <Group37>
-        <Rectangle10>
-          <Image1661
-            src={
-              "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/50d3c900-6e6e-4dd9-bc3f-2ec72c39a09f.png?alt=media&token=f2bad7a3-2bd6-4353-908c-f326fa6077cb"
-            }
-          />
-          <Group3>
-            <DAI>
-              {"               "}DAI
-              <br />
-            </DAI>
-            <Rectangle11 />
-          </Group3>
-          <Group4>
-            <Funded>Funded</Funded>
-            <Line3
+          <Element2>
+            <Text3>
+              
+            </Text3>
+            <SilverRectangle1 />
+          </Element2>
+          <FlexColumn1>
+            <Text4>Funded</Text4>
+            <Line
               src={
-                "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/983e8537-062f-406d-bebb-8472a3cafc15.svg?alt=media&token=04cbcdaa-29d8-44c4-82d1-eee26e5de237"
+                "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/1341cb22-45b5-4801-a227-81241c86ffd7.svg?alt=media&token=61c16752-5dc0-4880-b7d6-0c5c42832f9b"
               }
             />
-          </Group4>
-        </Rectangle10>
-        <Group35
+          </FlexColumn1>
+        </WhiteFlexRow1>
+        <Image3
           src={
-            "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/cae5beab-f3b0-4fe3-8027-67da5075a050.svg?alt=media&token=d4428629-054a-47f7-b0e7-878333d93add"
+            "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/45052fb6-5866-4e55-942f-e24eaaafebb8.svg?alt=media&token=45a5c4fc-141c-4ba9-89b2-24820ebcf99e"
           }
         />
-        <Group36
+        <Image4
           src={
-            "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/1450b3aa-d562-4e49-b26d-d27b15f651c2.svg?alt=media&token=15bed9e4-b185-4065-bb94-3b328342b28e"
+            "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/ad818edd-2e7a-4e4b-8180-194055f83663.svg?alt=media&token=68f9af4c-eb05-42a8-9011-f5919ed84fb1"
           }
         />
-      </Group37>
-      <Rectangle4>
-        <Group5>
-          <Image1660
+      </Element1>
+      <WhiteFlexColumn>
+        <FlexRow1>
+          <Image2
             src={
-              "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/377a1749-4fe6-4f78-8e98-e48dca39a339.png?alt=media&token=ff692e80-558b-4a62-a4ce-e6963c33af5e"
+              "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/3e47f974-bc3d-42ba-9ba4-612b5e85a855.png?alt=media&token=6f82fae3-83ff-4b53-8a69-a33167d61b64"
             }
           />
-          <Vancouver>Vancouver</Vancouver>
-        </Group5>
-        <Group6 marginBottom={"19px"}>
-          <Ellipse2
+          <Text5>Vancouver</Text5>
+        </FlexRow1>
+        <FlexRow2 marginBottom={"19px"}>
+          <Ellipse
             src={
-              "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/3d764e2d-26dc-449f-9152-bd11d293d6d2.svg?alt=media&token=9c76dc94-8a52-4540-bb8a-f100cac73b5b"
+              "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/13e81bcc-2887-4637-af0e-280d75a45356.svg?alt=media&token=d52fabd0-2171-40d1-ab9c-37d2062340f6"
             }
-            marginTop={"2px"}
           />
-          <ChopValueProposal height={"15px"}>
-            ChopValue Proposal
-          </ChopValueProposal>
-        </Group6>
-        <Group6 marginBottom={"8px"}>
-          <Ellipse2
+          <Text6 height={"15px"}>Electronics Depot</Text6>
+        </FlexRow2>
+        <FlexRow2 marginBottom={"8px"}>
+          <Ellipse1
             src={
-              "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/ad3ca1ce-8e32-4fce-82d8-d0978bfdea94.svg?alt=media&token=48f1dea5-3764-4618-b6d4-c590cc0fab3b"
+              "https://firebasestorage.googleapis.com/v0/b/rendition-prod.appspot.com/o/dff2bafb-f18d-42fe-bb25-9cc0d18896ec.svg?alt=media&token=ea469ced-0ec2-47a9-8dc8-459c7a406138"
             }
-            marginTop={"3px"}
           />
-          <ChopValueProposal height={"18px"}>
-            Investment Proposal
-          </ChopValueProposal>
-        </Group6>
-        <Rectangle12 />
-      </Rectangle4>
+          <Text6 height={"18px"}>Regional Recycling</Text6>
+        </FlexRow2>
+        <SilverRectangle2 />
+      </WhiteFlexColumn>
     </UIOnTheRightRoot>
   );
 };
-const Group6 = styled.div`
+const FlexRow2 = styled.div`
   display: flex;
   flex-direction: row;
   gap: 24px;
   align-items: flex-start;
   margin-bottom: ${(props) => props.marginBottom};
 `;
-const Ellipse2 = styled.img`
-  width: 10px;
-  height: 10px;
-  margin-top: ${(props) => props.marginTop};
-`;
-const ChopValueProposal = styled.div`
+const Text6 = styled.div`
   width: 124px;
   font-size: 12px;
   font-family: Inter;
@@ -124,7 +105,6 @@ const UIOnTheRightRoot = styled.div`
   position: relative;
   margin: auto;
   min-width: 971px;
-  margin-top: 5%;
 `;
 const UIDecoration = styled.img`
   width: 784px;
@@ -133,9 +113,10 @@ const UIDecoration = styled.img`
   top: 28px;
   left: 138px;
 `;
-const Rectangle8 = styled.div`
-  background-color: #ffffff;
+const WhiteFlexRow = styled.div`
   box-shadow: 6px 1px 70px 4px rgba(0, 0, 0, 0.15);
+  width: 264px;
+  background-color: #ffffff;
   position: absolute;
   top: 109px;
   left: 674px;
@@ -143,50 +124,37 @@ const Rectangle8 = styled.div`
   flex-direction: row;
   justify-content: flex-start;
   gap: 14px;
-  padding-left: 13px;
-  padding-right: 13px;
-  padding-top: 21px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 26px;
   padding-bottom: 25px;
   border-radius: 10px;
 `;
-const Group = styled.div`
-  width: 44px;
-  height: 46px;
-  position: relative;
+const FreeGeekLogo = styled.img`
+  width: 42px;
+  height: 41px;
 `;
-const Image1647 = styled.img`
-  width: 39px;
-  height: 39px;
-  position: absolute;
-  top: 3px;
-  left: 2px;
-`;
-const Image1663 = styled.img`
-  width: 44px;
-  height: 44px;
-  position: absolute;
-`;
-const Group1 = styled.div`
+const FlexColumn = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   gap: 5px;
 `;
-const ChopValueVancouver = styled.div`
+const Text1 = styled.div`
   width: 192px;
   height: 21px;
   font-size: 15px;
   font-family: Inter;
   font-weight: 600;
 `;
-const Group2 = styled.div`
+const FlexRow = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   gap: 9px;
   align-items: flex-end;
 `;
-const _151070Votes = styled.div`
+const Text2 = styled.div`
   width: 94px;
   height: 14px;
   font-size: 12px;
@@ -194,23 +162,23 @@ const _151070Votes = styled.div`
   font-weight: 400;
   align-self: stretch;
 `;
-const Rectangle9 = styled.div`
-  background-color: rgba(196, 196, 196, 0.97);
+const SilverRectangle = styled.div`
   width: 81px;
   height: 11px;
+  background-color: rgba(196, 196, 196, 0.97);
   border-radius: 9.5px;
 `;
-const Group37 = styled.div`
-  width: 427.84px;
-  height: 150.52px;
+const Element1 = styled.div`
+  width: 427px;
+  height: 151px;
   position: absolute;
   top: 619.42px;
   left: 544px;
 `;
-const Rectangle10 = styled.div`
-  background-color: #ffffff;
+const WhiteFlexRow1 = styled.div`
   box-shadow: 6px 1px 70px 4px rgba(0, 0, 0, 0.2);
   width: 346px;
+  background-color: #ffffff;
   position: absolute;
   top: 15.58px;
   left: 16px;
@@ -223,18 +191,18 @@ const Rectangle10 = styled.div`
   padding-bottom: 24px;
   border-radius: 10px;
 `;
-const Image1661 = styled.img`
+const Image1 = styled.img`
   width: 58px;
   height: 58px;
   margin-right: 17px;
 `;
-const Group3 = styled.div`
+const Element2 = styled.div`
   width: 155px;
   margin-right: 10px;
   height: 58px;
   position: relative;
 `;
-const DAI = styled.div`
+const Text3 = styled.div`
   width: 155px;
   height: 30px;
   font-size: 25px;
@@ -244,16 +212,16 @@ const DAI = styled.div`
   top: 16px;
   white-space: pre-wrap;
 `;
-const Rectangle11 = styled.div`
-  background-color: rgba(196, 196, 196, 0.97);
+const SilverRectangle1 = styled.div`
   width: 81px;
   height: 29px;
+  background-color: rgba(196, 196, 196, 0.97);
   position: absolute;
   top: 17px;
   left: 4px;
   border-radius: 9.5px;
 `;
-const Group4 = styled.div`
+const FlexColumn1 = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -262,32 +230,32 @@ const Group4 = styled.div`
   padding-bottom: 7px;
   align-items: flex-start;
 `;
-const Funded = styled.div`
+const Text4 = styled.div`
   font-size: 25px;
   font-family: Inter;
   font-weight: 600;
   align-self: stretch;
 `;
-const Line3 = styled.img`
+const Line = styled.img`
   width: 88px;
   height: 2px;
 `;
-const Group35 = styled.img`
+const Image3 = styled.img`
   width: 25.72px;
   height: 34.94px;
   position: absolute;
   top: 115.58px;
 `;
-const Group36 = styled.img`
-  width: 17.84px;
-  height: 23.58px;
+const Image4 = styled.img`
+  width: 17px;
+  height: 23.6px;
   position: absolute;
   left: 410px;
 `;
-const Rectangle4 = styled.div`
-  background-color: #ffffff;
+const WhiteFlexColumn = styled.div`
   box-shadow: 6px 1px 70px 4px rgba(0, 0, 0, 0.1);
   height: 172px;
+  background-color: #ffffff;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -298,7 +266,7 @@ const Rectangle4 = styled.div`
   padding-right: 41px;
   border-radius: 10px;
 `;
-const Group5 = styled.div`
+const FlexRow1 = styled.div`
   margin-bottom: 27px;
   display: flex;
   flex-direction: row;
@@ -306,21 +274,31 @@ const Group5 = styled.div`
   gap: 6px;
   align-items: flex-end;
 `;
-const Image1660 = styled.img`
+const Image2 = styled.img`
   width: 49px;
   height: 49px;
   align-self: stretch;
 `;
-const Vancouver = styled.div`
+const Text5 = styled.div`
   font-size: 18px;
   font-family: Inter;
   font-weight: 600;
   margin-bottom: 3px;
 `;
-const Rectangle12 = styled.div`
-  background-color: rgba(196, 196, 196, 0.97);
+const Ellipse = styled.img`
+  width: 10px;
+  height: 10px;
+  margin-top: 2px;
+`;
+const Ellipse1 = styled.img`
+  width: 10px;
+  height: 10px;
+  margin-top: 3px;
+`;
+const SilverRectangle2 = styled.div`
   width: 81px;
   height: 10px;
+  background-color: rgba(196, 196, 196, 0.97);
   margin-left: 34px;
   align-self: flex-start;
   border-radius: 9.5px;
