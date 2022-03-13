@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Home.css"
-import {Main} from '../Landing/Main.js'
-import {Graphic} from '../Landing/RGraphic.js'
-import {DownArrow} from '../Landing/DownArrow.js'
+import {Main} from './Landing/Main.js'
+import {Graphic} from './Landing/RGraphic.js'
+import {DownArrow} from './Landing/DownArrow.js'
 
 export default function Home(){
     return (

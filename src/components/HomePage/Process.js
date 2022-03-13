@@ -1,7 +1,7 @@
 import React from 'react'
-import {DownArrow} from '../Landing/DownArrow.js'
-import {Pagetwotitle} from '../HowItWorks/Title.js'
-import TheProcess from '../HowItWorks/TheProcess.js'
+import {DownArrow} from './Landing/DownArrow.js'
+import {Pagetwotitle} from './HowItWorks/Title.js'
+import TheProcess from './HowItWorks/TheProcess.js'
 import "./Process.css"
 
 export default function Process(){
