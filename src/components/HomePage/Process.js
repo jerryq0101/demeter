@@ -12,9 +12,7 @@ export default function Process(){
                 <Pagetwotitle />
                 <TheProcess />
             </div>
-            <div>
-                <DownArrow />
-            </div>
+            
         </div>
     )
 }
