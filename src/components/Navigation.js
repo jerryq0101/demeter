@@ -20,7 +20,7 @@ export default function Navigation() {
                  <Link to="/vote"><li><a href="#">Vote</a></li></Link>
                  <li><a href="#">Treasury</a></li>
                  <li><a href="#">Docs</a></li>
-                 <li><a href="">Access</a></li>
+                 <Link to="/access"><li><a href="#">Access</a></li></Link>
              </ul>
          </nav>
          <a class="cta"><Connect /></a>

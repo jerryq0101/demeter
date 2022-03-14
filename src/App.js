@@ -4,6 +4,7 @@ import Navigation from './components/Navigation.js'
 import FirstPage from './components/HomePage/HomePage'
 import Vote from './components/VotePage/VotePage'
 import {Footer} from './components/footer/Footer'
+import Access from './components/AccessPage/Access'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 // Thirdweb elements onto the website today
 import {ThirdwebProvider} from '@3rdweb/react'
@@ -25,6 +26,9 @@ export default function App() {
             <Route exact path="/vote">
               <Vote />
             </Route>
+            <Route exact path="/access">
+              <Access />
+            </Route>
 
           </Switch>
 
@@ -36,7 +40,7 @@ export default function App() {
   );
 
   // Ethereum Supported Chain IDs
-  const supportedChainIds = [1, 4, 137];
+  const supportedChainIds = [1, 4, 137, 250, 43114, 80001];
 
   const connectors = {
     injected: {},
