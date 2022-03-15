@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ThirdwebSDK } from '@3rdweb/sdk';
 import { useWeb3 } from '@3rdweb/hooks';
+import './dropclaim.css'
 
 const sdk = new ThirdwebSDK('https://rpc-mumbai.maticvigil.com');
 const bundleDrop = sdk.getBundleDropModule(
@@ -33,16 +34,10 @@ const DropClaim = () => {
     return (
     <button
         disabled={claiming}
-        style={{
-        padding: "10px 20px",
-        textAlign: "center",
-        backgroundColor: "#05A266",
-        color: "white",
-        }}
         className="btn"
         onClick={onClick}
     >
-        {claiming ? "Claiming..." : "Claim Early Access NFT"}
+        {claiming ? "minting..." : "/mint"}
     </button>
     );
 };

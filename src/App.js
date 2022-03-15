@@ -40,7 +40,7 @@ export default function App() {
   );
 
   // Ethereum Supported Chain IDs
-  const supportedChainIds = [1, 4, 137, 250, 43114, 80001];
+  const supportedChainIds = [80001];
 
   const connectors = {
     injected: {},
@@ -64,32 +64,3 @@ export default function App() {
     </ThirdwebProvider>
   )
 }
-
-
-
-// export default function App() {
-//   return(
-//     <Router>
-//       <div className="App">
-//         {/* Navbar is always going to be here */}
-//         <Navigation />
-//         <div className="content">
-
-//           <Switch>  {/*  A switch statement to select the route of the website */}
-
-//             <Route exact path="/">
-//               <FirstPage />
-//             </Route>
-//             <Route exact path="/vote">
-//               <Vote />
-//             </Route>
-
-//           </Switch>
-
-//         </div>
-//         {/* The Current Footer that is here */}
-//         <Footer />
-//       </div>
-//     </Router>
-//   )
-// }

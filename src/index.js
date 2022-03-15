@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 
 import WebFont from "webfontloader";
 import App from "./App";
+import {ThirdwebWeb3provider} from '@3rdweb/hooks';
+
 
 
 WebFont.load({
