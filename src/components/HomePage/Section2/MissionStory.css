@@ -1,0 +1,30 @@
+.Mission-Story-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.Mission-Story-item-1 {
+    padding-top: 1.5em;
+    padding-left: 5em;
+    padding-right: 6.3em;
+    padding-bottom: 1em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 1em;
+}
+
+.Mission-Story-item-2 {
+    padding-left: 12em;
+    padding-right: 6.3em;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 60px;
+}
+

@@ -1,0 +1,10 @@
+.Our-Mission-Container {
+    display: flex;
+    flex-direction: row;
+    background-color: none;
+    margin: 10em 0 10em 0;
+}
+
+.Image-Container {
+    max-height: 677px;
+}

@@ -1,10 +1,9 @@
 import logo from './logo.svg';
 import './App.css'
 import Navigation from './components/Navigation.js'
-import FirstPage from './components/HomePage/HomePage'
+import HomePage from './components/HomePage/HomePage'
 import Vote from './components/VotePage/VotePage'
 import {Footer} from './components/footer/Footer'
-import Access from './components/AccessPage/Access'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 // Thirdweb elements onto the website today
 import {ThirdwebProvider} from '@3rdweb/react'
@@ -17,28 +16,21 @@ export default function App() {
         {/* Navbar is always going to be here */}
         <Navigation />
         <div className="content">
-
           <Switch>  {/*  A switch statement to select the route of the website */}
-
             <Route exact path="/">
-              <FirstPage />
+              <HomePage />
             </Route>
             <Route exact path="/vote">
               <Vote />
             </Route>
-            <Route exact path="/access">
-              <Access />
-            </Route>
-
           </Switch>
-
         </div>
         {/* The Current Footer that is here */}
         <Footer />
       </div>
     </Router>
   );
-
+  
   // Ethereum Supported Chain IDs
   const supportedChainIds = [80001];
 
